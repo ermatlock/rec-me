@@ -47,7 +47,7 @@ const SingleArtist = ({ name }) => {
               className="back-to-main"
               onClick={() => data.setQuery(mainItem.Name)}
             >
-              <span class="text">Back to Main</span>
+              <span className="text">Back to Main</span>
             </button>
           </Link>
         </div>
@@ -79,18 +79,19 @@ const SingleArtist = ({ name }) => {
           <article className="article">{mainItem.wTeaser}</article>
         )}
       </div>
-      <div className="wiki-art">
+      <>
         {mainItem.wTeaser && (
           <a
             className="wiki-link"
             href={mainItem.wUrl}
             target="_blank"
+            rel="noreferrer"
             style={{ textDecoration: "none" }}
           >
             Read More About {mainItem.Name} HERE on Wikipedia!
           </a>
         )}
-      </div>
+      </>
     </section>
   );
 };

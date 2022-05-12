@@ -30,7 +30,7 @@ Our featured stretch technology for this project incorporated the React Context 
 - ![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 
 ## Deployment
-This site is deployed on Heroku and cab be found [here](https://rec-me.surge.sh/)!
+This site is deployed on Surge and can be found [here](https://rec-me.surge.sh/)!
 Alternatively, this repo can be cloned to your local machine. run `npm i` before running `npm start`.
 
 ## Features
@@ -74,16 +74,15 @@ to reach in 6 moves or less. Users are told how many turns are left and given mo
 </details>
 </br>
 
-### Testing
+### Testing & Accessibility
 
-Rec-Me is fully end-to-end tested with Cypress. URLs are tested and network requests are stubbed.
+Rec-Me is fully end-to-end tested with Cypress. URLs are tested and network requests are stubbed. Rec-Me was also designed to be accessible for screen-readers and is fully tab-able.
 
 ## Future Additions
 - Incorporate a favorites mechanism so user's can favorite artists and save them to a list
 - Create customized user playlists
 - Search and filter by genre
 - Improve site accessibility
-- Add a randomizer feature to allow user's to re-shuffle the current artist without reloading the page
 
 ## Credits
 Authors: [Maddie Law](https://github.com/maddielaw) [Eric Matlock](https://github.com/ermatlock) [Jerry Vohrer](https://github.com/Jerry-Vrrr) [Katie Ammon](https://github.com/kammon10)
